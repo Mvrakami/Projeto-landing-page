@@ -1,0 +1,111 @@
+
+* { /* Item criado para estilizar a página como um todo*/
+  margin: 0px;
+  font-family: 'Inter'; 
+  font-weight: 300;
+  background-color: #303030;
+}
+
+#cabeçalho{
+  color: white;
+  padding-bottom: 80px;
+  padding-left: 45px;
+  padding-top: 100px
+}
+
+#titulo-cabeçalho{
+  font-size: 50px;
+}
+
+#dados-informativos{
+  background-color: #F9F9F9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 150px;
+  column-count: 3;
+}
+
+.numeros, .info{
+  background-color: #F9F9F9;
+}
+
+.numeros{
+  font-size: 35px;
+  font-weight: 400;
+}
+
+
+
+
+#historia{
+  background-color: white;
+  column-count: 2;
+  column-gap: 8px;
+  text-align: left;
+  justify-items: center;
+  padding-left: 80px;
+}
+
+#imagem{
+  background-color: white;
+  width: 380px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#titulo-historia{
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 120px;
+  font-size: 33px;
+}
+
+#paragrafo-historia{
+  background-color: white;
+  padding-left: 60px;
+  font-size: 18px;
+}
+
+
+
+#formulario{
+  text-align: center;
+  display: flexbox;
+  
+
+}
+
+#titulo-formulario{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+input{
+  background-color: white;
+  height: 35px;
+  width: 320px;
+  border-radius: 5px;
+  border: 0px; 
+  margin-top: 25px; 
+  padding-left: 15px;
+}
+button{
+  margin-bottom: 60px;
+  margin-top: 20px; 
+  background-color: #C07212;
+  color: white;
+  font-weight: 500;
+  height: 35px;
+  width: 160px;
+  border-radius: 5px;
+  border: 0px; 
+}
+button:hover{
+  background-color: #C07212;
+  color: white;
+  transform: translateY(3px);
+  box-shadow: 0px 8px 12px #f4a646d0;
+  transition-duration: 0.5;
+}
+
